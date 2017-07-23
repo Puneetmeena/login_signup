@@ -1,0 +1,42 @@
+html,body
+{
+		margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.container
+{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background:url('https://www.j-26.com/assets/seo-for-webpages.jpg');	
+  background-size: cover;
+  background-position: center;
+  visibility: visible;
+}
+.button
+{   width: 10%;
+	  height: 30px;
+	  border-radius: 8px;
+    font-weight: bold;
+    font-family: garamond;
+    background-color:#D7DBDD;
+    opacity: 5%;
+    font-size: 16px;
+    padding: 0px;
+    border:0px;
+    margin-left: 9%;
+}
+.login
+{
+  padding-left: 30%;
+  padding-top: 10%;
+  font-family: garamond;
+
+}
+.user
+{
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: arial;
+}

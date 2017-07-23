@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	<p class="show"></p>
+		<div class="login">
+		<form id="form_id" method="post" name="myform" action="login">
+		<div class="form-group">	
+			<label>User Name :</label><br>
+			<input type="text" name="username" class="inputbox" id="username" /><br>
+			<label>Password :</label><br>
+			<input type="password" name="password" id="password" class="inputbox"/><br>
+			<button type="submit" class="button" value="login" id="submit">Login</button>
+            <input type="button" class="button" value="Signup" id="submit" onclick="signup();">
+		</div>
+		</form>
+		</div>
+	</div>
+   
+    <script>
+        function signup(){
+            window.location("signup.html");
+        }
+    </script>	
+    
+</body>
+</html>
+
